@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/GoobyeEarth/old-js/issues"
   },
-  "homepage": "https://github.com/GoobyeEarth/old-js#readme"
+  "homepage": "https://github.com/GoobyeEarth/old-js#readme",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "power-assert": "^1.4.4",
+    "rewire": "^3.0.1"
+  }
 }

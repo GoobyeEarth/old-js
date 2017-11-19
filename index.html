@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+
     <title>Title</title>
 </head>
 <body>
-
+<div>
+    <div id='biscuit_counter' data-count="5">ビスケットが5つ</div>
+    <input id="count_down" type="button" value="count down">
+    <input id="count_up" type="button" value="count up">
+</div>
 </body>
+<script>
+    $('#count_down').on('click', function () {
+        biscuit_counter.action.count_down(1);
+    });
+    $('#count_up').on('click', function () {
+        biscuit_counter.action.count_up(1);
+    });
+</script>
 </html>
+
