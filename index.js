@@ -48,8 +48,6 @@ biscuit_counter.view.create_biscuit_count_message = function (count) {
     return 'ビスケットが' + count + 'つ';
 };
 
-
-
 //非同期処理はこちらに退避
 biscuit_counter.async = {};
 
