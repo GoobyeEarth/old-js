@@ -1,10 +1,10 @@
 var assert = require('assert');
 var rewire = require('rewire');
 describe('biscuit_counter state', function () {
-    it('create_count_message', function () {
+    it('create_biscuit_count_message', function () {
         assert.deepEqual(true, true);
         var biscuit_counter = rewire('../index').__get__('biscuit_counter');
-        var message = biscuit_counter.state.create_count_message(2);
+        var message = biscuit_counter.state.create_biscuit_count_message(2);
         assert.deepEqual('ビスケットが2つ', message);
     })
 });
